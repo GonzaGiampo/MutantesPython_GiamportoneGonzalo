@@ -15,7 +15,10 @@ for i in range(n):
             valor=input().upper()
             if(valor=='A' or valor=='T' or valor=='C' or valor=='G'):
                 adn[i].append(valor)
-                break 
+                break
+            else:
+                print("Solo puede ingresar cualquiera de los caracteres A-T-C-G")
+                print("No se preocupe, no distingue mayusculas de minusculas...") 
 
 
 #funcion para mostrar la matriz
@@ -58,6 +61,7 @@ for i in range(0,6):
     iterador=0
 print("-----------------------------------------------")
 print("aqui se muestran verticales: ",gen_mutante)
+print("Se suman a las mutaciones anteriores")
 print("-----------------------------------------------")
 print("Buscando mutaciones en diagonal...")
 
@@ -79,6 +83,7 @@ for i in range(0,3):
     iterador=0   
 print("-----------------------------------------------")
 print("aqui se muestran oblicuas: ",gen_mutante)
+print("Se suman a las mutaciones anteriores")
 print("-----------------------------------------------")
 print("buscando mutaciones en diagonal inversa...")
 #funcion para buscar coincidencias en oblicuas inversas
@@ -98,6 +103,7 @@ for i in range(0,3):
     num=num+2   
 print("-----------------------------------------------")
 print("aqui se muestran inversas: ",gen_mutante)
+print("Se suman a las mutaciones anteriores")
 print("-----------------------------------------------")
 print("aqui se muestra la cantidad de genes mutantes: ",gen_mutante)
 print("-----------------------------------------------")
