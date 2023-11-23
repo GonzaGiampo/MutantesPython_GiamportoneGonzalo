@@ -2,6 +2,7 @@
 <em> # Trabajo final de programacion1-Giamportone Gonzalo </em>
 
 TURNO TARDE-LEGAJO 51551
+
 Para llenar la matriz recurrÍ a hacer una lista de listas, de forma que sea mas entendible en cada pedido de elemento indico posicion del elemento que se pide. mediante un while establezco la condicion de como deben ingresarse los valores
     
     adn.append([])
